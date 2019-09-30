@@ -1,3 +1,4 @@
 def reverse_each_word (array)
-  array.each {|word| word.reverse}
+  reverse_array=[]
+  array.each {|word| reverse_array.push(word.reverse)}
 end
