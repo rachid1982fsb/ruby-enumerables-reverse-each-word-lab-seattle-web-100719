@@ -5,6 +5,7 @@ def reverse_each_word (array)
   reverse_array
 end
 
-def reverse_each_word (array)
-  array.collect{|word| %w[word].reverse}
+def reverse_each_word (string)
+  array=%w[string]
+  array.collect{|word| word.reverse}
 end
