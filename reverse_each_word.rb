@@ -6,6 +6,7 @@ def reverse_each_word (string)
   reverse_array.join(' ')
 end
 
+
 def reverse_each_word (string)
   array= string.split(/ /)
  
